@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Decodicador</title>
+    
+</head>
+<body>
+    <header class = "logo">
+        <p class ="titulo">Decodificador ALURA</p>
+    </header>
+    
+
+    <div class= "main">
+        <textarea type="text"id="textoantes"rows="10" cols="50" placeholder="DIGITE O TEXTO A SER CRIPTOGRAFADO"></textarea>
+        <textarea type="text"id="textodepois"rows="10" cols="50" placeholder="DGITE AKI O TEXTO PARA SER DECRIPTOGRADO"></textarea>
+    </div>
+    
+<br>
+
+    <p class ="info">NAO USAR LETRAS MAIUSCULAS,CARACTERES ESPECIAIS E ACENTOS!!!</p>
+<br>
+    <div class="buttons">
+        <button  onclick="criptografa()" class="b1">CRIPTOGRAFAR</button>
+        <button  onclick="descripto()"class="b2" >DESCRIPTOGRAFAR</button>
+        <button  onclick="copyTextoAntes()"class="b3">COPIAR TEXTO NORMAL</button>
+        <button  onclick="copyTextoCripto()"class="b4">COPIAR TEXTO CRIPTO</button>
+    </div>
+
+    <p class="info2">Abra o console para ver a mensagem secreta!!!</p>
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding:0;
+font-family: 'poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(186, 224, 224);
+}
+
+.logo{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    height:60px;
+    
+}
+
+.titulo{
+    text-align: center;
+    font-size: 30px;    
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.buttons{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+}
+
+.b1{
+    border-radius: 5px;
+    width:200px;
+    font-size: 15px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.b1:hover{
+    color:rgb(255, 0, 221);
+}
+
+.b2{
+    border-radius: 5px;
+    width:200px;
+    font-size: 15px;
+    height: 25px;
+    cursor: pointer;
+}
+.b2:hover{
+    color:rgb(255, 0, 221);
+}
+
+.b3{
+    border-radius: 5px;
+    width:200px;
+    font-size: 15px;
+    height: 25px;
+    cursor: pointer;
+}
+.b3:hover:hover{
+    color:rgb(255, 0, 221);
+}
+
+.b4{
+    border-radius: 5px;
+    width:200px;
+    font-size: 15px;
+    height: 25px;
+    cursor: pointer;
+}
+.b4:hover:hover{
+    color:rgb(255, 0, 221);
+}
+.info{
+    display: flex;
+  justify-content: center;
+  color: red;
+}
+
+.info2{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: 2rem;
+    color: purple;
+}
+
